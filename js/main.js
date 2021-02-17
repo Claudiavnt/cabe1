@@ -22,8 +22,8 @@
     });
     $('.testimonial .slider-nav').css({"position": "relative", "height": "160px"});
 
-    
-    
+
+
     // Portfolio isotope and filter
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
@@ -36,6 +36,6 @@
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
-    
+
 })(jQuery);
 
