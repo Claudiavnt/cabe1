@@ -1,7 +1,21 @@
 @font-face {
-    font-family: "openSansLight";
-    src: local("openSansLight"),
-     url(~assets/fonts/Open_Sans/OpenSans-Light.ttf) format("truetype");
+    font-family: "metaRegular";
+    src: url(../font/meta-nor.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "metaItalic";
+    src: url(../font/Meta_Italic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "metaBoldCaps";
+    src: url(../font/Meta_BoldCaps.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "metaBold";
+    src: url(../font/MetaBold.ttf) format("truetype");
   }
 
 /*******************************/
@@ -10,7 +24,7 @@
 body {
     color: #213546;
     background: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'metaRegular';
 }
 
 a {
@@ -40,6 +54,14 @@ a:focus {
 
 .container {
     max-width: 1050px;
+}
+
+.nav-item, .btn{
+    font-family: 'metaBoldCaps';
+}
+
+h1,h2,h3,h4 {
+    font-family: 'metaBold';
 }
 
 
@@ -131,6 +153,10 @@ a:focus {
         display: none;
     }
 
+    .navbar-light .navbar-toggler {
+        margin:0 auto;
+    }
+
     .header .navbar-light a.nav-link {
         position: relative;
         padding: 8px 10px;
@@ -169,6 +195,10 @@ a:focus {
         z-index: 1;
     }
 
+    .navbar-light .navbar-toggler {
+        margin:0 auto;
+    }
+
     .header a.nav-link {
         padding: 5px 0;
     }
@@ -176,6 +206,15 @@ a:focus {
     .header .dropdown-menu {
         box-shadow: none;
     }
+}
+.navbar-light .navbar-toggler {
+    margin:0 auto;
+}
+
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:active {
+border-color:#0271a5;
 }
 
 .header .navbar .btn {
@@ -282,6 +321,7 @@ a:focus {
     margin: 10px 0 20px 0;
     font-size: 18px;
     font-weight: 500;
+    font-family: 'metaItalic';
 }
 
 .hero a.btn {
@@ -837,6 +877,7 @@ a:focus {
     background: #ffffff;
     border: 2px solid #4F84C4;
     border-radius: 0 30px 30px 0;
+    font-family: 'MetaBold';
 }
 
 .faqs .card-header [data-toggle="collapse"]:after {
@@ -885,8 +926,8 @@ a:focus {
 }
 
 .faqs img {
-    max-width: 100%;
-    border-radius: 30px 0 0 30px;
+    max-width: 80%;
+    margin-left: 10%;
 }
 
 @media (max-width: 767.98px) {
@@ -977,7 +1018,7 @@ a:focus {
 
 .testimonial .testimonial-slider p {
     font-size: 18px;
-    font-style: italic;
+    font-family: "MetaItalic";
     margin: 0;
 }
 
