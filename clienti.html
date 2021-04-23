@@ -97,55 +97,42 @@
             <div class="col-md-6">
               <h2 class="section-title">Richiesta contatto</h2>
               <form
-                class="form-inline"
-                action="mailto: segreteria.cabe@gmail.com"
+                action="mailto: segreteria.cabe@gmail.com?subject=Richiesta contatto"
                 method="post"
                 enctype="text/plain"
+                class="tm-contact-form"
               >
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-name-container">
                   <input
-                    type="name"
-                    id="nome_cognome"
+                    type="text"
+                    id="contact_name"
                     name="nome_cognome"
                     class="form-control"
-                    placeholder="Nome"
                     placeholder="Nome e Cognome"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-email-container">
                   <input
-                    type="cell"
-                    id="cell"
-                    name="cell"
+                    type="number"
+                    id="contact_email"
+                    name="telefono"
                     class="form-control"
                     placeholder="Recapito telefonico"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-email-container">
                   <input
                     type="email"
-                    id="email"
+                    id="contact_email"
                     name="email"
                     class="form-control"
-                    placeholder="Indirizzo email"
+                    placeholder="Indirizzo Email"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <a type="submit" class="btn mt-4"> Invia </a>
+                <button type="submit" class="btn mt-4 form-btn">Invia</button>
               </form>
             </div>
           </div>
@@ -160,57 +147,47 @@
             <div class="col-md-6">
               <h2 class="section-title">Richiesta preventivo</h2>
               <form
-                class="form-inline"
-                action="mailto: segreteria.cabe@gmail.com"
+                action="mailto: segreteria.cabe@gmail.com?subject=Richiesta preventivo"
                 method="post"
                 enctype="text/plain"
+                class="tm-contact-form"
               >
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-name-container">
                   <input
-                    type="name"
-                    id="nome_cognome"
+                    type="text"
+                    id="contact_name"
                     name="nome_cognome"
                     class="form-control"
                     placeholder="Nome"
-                    placeholder="Nome e Cognome"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-email-container">
                   <input
-                    type="cell"
-                    id="cell"
-                    name="cell"
+                    type="number"
+                    id="contact_email"
+                    name="telefono"
                     class="form-control"
                     placeholder="Recapito telefonico"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-email-container">
                   <input
                     type="email"
-                    id="email"
+                    id="contact_email"
                     name="email"
                     class="form-control"
                     placeholder="Email"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group">
                   <textarea
-                    type="text"
-                    id="text"
-                    name="text"
+                    id="contact_message"
+                    name="contact_message"
                     class="form-control"
+                    rows="9"
                     placeholder="Dettagli lavoro"
                     required
                     style="min-height: 200px"
@@ -221,13 +198,8 @@
                     video chiamata
                   </p>
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <a type="submit" class="btn mt-4"> Invia </a>
+
+                <button type="submit" class="btn mt-4 form-btn">Invia</button>
               </form>
             </div>
             <div class="col-md-6">

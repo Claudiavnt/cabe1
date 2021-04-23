@@ -307,63 +307,42 @@
             <div class="col-md-6">
               <h2 class="section-title">Lavora con noi</h2>
               <form
-                class="form-inline"
-                action="mailto: segreteria.cabe@gmail.com"
+                action="mailto: segreteria.cabe@gmail.com?subject=Lavora con noi"
                 method="post"
                 enctype="text/plain"
+                class="tm-contact-form"
               >
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-name-container">
                   <input
-                    type="name"
-                    id="nome_cognome"
+                    type="text"
+                    id="contact_name"
                     name="nome_cognome"
                     class="form-control"
-                    placeholder="Nome"
                     placeholder="Nome e Cognome"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-email-container">
                   <input
-                    type="cell"
-                    id="cell"
-                    name="cell"
+                    type="number"
+                    id="contact_email"
+                    name="telefono"
                     class="form-control"
                     placeholder="Recapito telefonico"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="form-group col-md-12 col-sm-12">
+                <div class="form-group tm-email-container">
                   <input
                     type="email"
-                    id="email"
+                    id="contact_email"
                     name="email"
                     class="form-control"
-                    placeholder="Email"
+                    placeholder="Indirizzo Email"
                     required
                   />
                 </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <!--div class="form-group col-md-12 col-sm-12">
-                  <input
-                    type="file"
-                    name="fileToUpload"
-                    id="fileToUpload"
-                    required
-                  />
-                </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                /-->
-                <a type="submit" class="btn mt-4"> Invia </a>
+                <button type="submit" class="btn mt-4 form-btn">Invia</button>
               </form>
             </div>
           </div>

@@ -44,6 +44,24 @@ a:focus {
     box-shadow: none;
 }
 
+.form-btn{
+    padding: 10px 35px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(#4F84C4, #0271a5);
+    transition: .5s;
+}
+
+.form-btn:hover {
+    background: linear-gradient(#0271a5, #4F84C4);
+    color:white
+}
+
+
 .wrapper {
     position: relative;
     width: 100%;
